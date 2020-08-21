@@ -44,7 +44,7 @@ As a teacher Jane is known for her innovative and powerful work in myth, ritual,
 </p>
  
 <p class='firstBio'>
-Jane is also a Tarot reader and a <a href="marriage_celebrancy.php" target="_blank">Marriage Celebrant</a> in Australia.
+Jane is also a Tarot reader and a <a href="content/pages/marriage_celebrancy.php" target="_blank">Marriage Celebrant</a> in Australia.
 </p>
 
 <p>
