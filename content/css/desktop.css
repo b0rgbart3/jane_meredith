@@ -1,0 +1,163 @@
+
+@media only screen and (min-width:900px) {
+    html {
+        padding-left:5%;
+        padding-right:5%;
+        padding-top:14px;
+        padding-bottom:44px;
+    }
+    body {
+        padding-bottom:0px;
+        border-radius:12px;
+    }
+    h1 {
+        margin-right:0;
+    }
+    .banner {
+        border-radius:12px 12px 0 0;
+        min-height:40px;
+    }
+
+    .tagline {
+        margin-bottom:14px;
+        padding-top:34px;
+    }
+    ul.desktop {
+        display:block;
+    }
+    .burger {
+        display:none;
+    }
+    .half {
+        display:inline-block;
+        width:50%;
+        padding-top:8px;
+        padding-right:5%;
+    }
+    .half h2 {
+        padding-left:8%;
+    }
+    .half p {
+        padding-left:10%;
+    }
+    .bioPic {
+    max-width:300px;
+    border-radius:8px;
+    }
+    .cert {
+        left:0;
+        padding:0;
+    }
+    .editorial {
+        margin:0;
+        padding:0;
+       
+
+      
+        margin-bottom:8px;
+        width:40%;
+        float:left;
+        display:inline-block;
+
+    }
+  
+    .tiny_icon {
+        width:54px;
+        height:54px;
+        margin:8px;
+       
+    }
+    .midsizeImage {
+        width:50%;
+    }
+
+
+.headliner {
+    width:100%;
+    box-sizing: border-box;
+    background-color:pink;
+
+}
+
+.headlineImage { 
+    padding:14px;
+    padding-right:0;
+    width:42%;
+    float:left;
+    max-width:400px;
+    box-sizing: border-box;
+    /* border:1px solid purple; */
+}
+
+.headlineImage img {
+    width:100%;
+    box-sizing: border-box;
+}
+
+.headlinerBody {
+    /* border:1px solid blue; */
+    width:58%;
+    float:left;
+    padding-top:20px;
+    padding-left:10px;
+    padding-right:28px;
+    box-sizing: border-box;
+}
+
+#sliderContainer { 
+    top:500px;
+}
+
+.bookAnnouncement {
+    padding:0;
+    margin:0;
+    padding-top:24px;
+    text-transform: uppercase;
+}
+.bookAnnouncementTitle {
+    padding-top:14px;
+    font-size:1.8em;
+    font-weight: 800;
+}
+
+.mainpicContainer {
+    height:600px;
+    overflow: hidden;
+}
+
+.firstBio {
+    padding-top:2em;
+    opacity:.6;
+   font-family: 'Spartan', Arial, Helvetica, sans-serif;
+     
+}
+.initCap {
+    width:23%;
+    display:inline-block;
+    float:left;
+    padding-left:20px; 
+    margin-top:-10px;   
+    margin-right:-20px;
+}
+
+.floatImageLeft {
+    float:left;
+    margin-right:14px;
+    margin-bottom:14px;
+    height:460px;
+  
+}
+
+.logo3 {
+    font-size:7em;
+}
+.fakeSpacer {
+    height:150px;
+    display:block;
+    margin:0;
+    padding:0;
+    border:1px solid rgba(0,0,0,0);
+    padding:20px;
+}
+
+}

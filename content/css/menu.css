@@ -1,0 +1,98 @@
+
+
+.banner {
+    background-color:rgb(223, 152, 212);
+    background-color:rgb(233, 167, 223);
+    background-color:#e1aed9;
+    background: rgb(225,174,217);
+    background: linear-gradient(0deg, rgb(218, 154, 209) 65%, rgb(247, 202, 239) 99%);
+    box-sizing: border-box;
+    min-height:80px;
+}
+
+.burger {
+    cursor: pointer;
+    width: 44px;
+    height:44px;
+    display:inline-block;
+    padding-right:4%;
+    opacity:.8;
+    padding-top:10px;
+    float:right;
+    
+    }
+    .burger:hover {
+    opacity:1;
+    outline:none;
+}
+
+.burger:active {
+    outline:none;
+}
+
+
+.mobileMenu ul.menu li {
+    display:block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    line-height:2em;
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align: left;
+    padding-left:0px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+    }
+
+.mobileMenu ul.menu li:hover {
+background-color:rgba(150, 52, 150, 0.673);
+}
+
+.mobileMenu ul.menu li:hover a {
+color:white;
+}
+
+.mobileMenu {
+    background-color:white;
+    background-color:white;
+    background-color:rgb(247, 212, 234);
+    display:none;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-bottom:50px;
+    }
+
+.mobileMenu ul {
+padding:0;
+margin:0;
+}
+.mobileMenu ul li {
+    /* find me here */
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+list-style: none;
+font-size:1.4em;
+padding-left:38px;
+padding-top:24px;
+padding-bottom:20px;
+margin:0;
+}
+
+.mobileMenu ul a li {
+    color:rgb(104, 12, 104);
+} 
+.mobileMenu ul li:active {
+background-color:rgba(104, 12, 104, 0.452);
+color:white;
+}
+
+
+.mobileMenu a {
+text-decoration: none;
+padding:0;
+}
+
+

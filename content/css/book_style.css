@@ -1,0 +1,155 @@
+.bookContainer {
+        padding-top:40px;
+        width:100%;
+        box-sizing:border-box;
+        background-color:white;
+        
+        margin-top:0;
+    }
+    .bookTable {
+        /* border:2px solid orange; */
+        width:100%;
+        box-sizing:border-box;
+    }
+    .bookCell {
+        align:vertical;
+        box-sizing:border-box;
+        padding:20px;
+        border:2px solid rgba(0,0,0,0);
+        margin-bottom:60px;
+    }
+    .bookImageContainer {
+        text-align:center;
+        min-height:500px;
+        padding-bottom:20px;
+    }
+    .bookImage {
+        max-height:680px;
+        max-width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        box-shadow:0px 0px 12px rgb(104, 12, 104);
+        
+    }
+    .bookDescriptionSubTitle {
+    padding:0;
+    margin:0;
+    font-weight: 600;
+    font-size:.7em;
+    letter-spacing:-.01em;
+    text-transform: uppercase;
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    opacity:.7;
+    padding-left:10px;
+}
+
+
+.bookDescriptionTitle {
+    font-weight: 800;
+    font-size:1.47em;
+    text-transform: uppercase;
+    padding:0;
+    padding-top:8px;
+    margin:0;
+    font-family: 'Nanum Myeongjo', Arial, Helvetica, sans-serif ;
+    margin-bottom:10px;
+    padding-left:10px;
+}
+.bookDescriptionBody {
+    /* font-weight:600; */
+    font-size:.8em;
+    line-height:1.8em;
+    padding:0;
+    padding-top:8px;
+    margin:0;
+    font-family: 'Nanum Myeongjo', Arial, Helvetica, sans-serif ;
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    margin-bottom:10px;
+    opacity:.8;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+
+.bookAcquisitionTitle {
+    padding:0;
+    margin:0;
+    font-weight: 600;
+    font-size:.7em;
+    letter-spacing:-.01em;
+    text-transform: uppercase;
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    opacity:.7;
+    padding-left:10px;
+    text-align: center;
+    user-select:none;
+}
+.bookAcquisitionLink {
+    background-color:rgba(112, 29, 112, 0.2);
+    border-radius:8px;
+    margin-bottom:10px;
+    color:rgb(104, 12, 104);
+    text-align: center;
+    text-transform: uppercase;
+    font-size:.85em;
+    padding-top:5px;
+    opacity:.5;
+    user-select:none;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.bookAcquisitionLink:hover {
+    opacity:.8;
+}
+.bookAcquisitionLink:active {
+    opacity:1;
+}
+
+.bookTestemonial {
+    font-size:1em;
+    line-height:1.8em;
+    padding:0;
+    padding-top:8px;
+    margin:0;
+    font-family: 'Nanum Myeongjo', Arial, Helvetica, sans-serif ;
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    margin-bottom:10px;
+    opacity:.8;
+    padding-top:20px;
+    padding-left:10px;
+    font-weight:500;
+    font-style: italic;
+}
+
+.bookTestemonialRef {
+    font-size:.9em;
+    line-height:1.8em;
+    padding:0;
+    padding-top:8px;
+    margin:0;
+    font-family: 'Nanum Myeongjo', Arial, Helvetica, sans-serif ;
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    margin-bottom:10px;
+    opacity:.8;
+    padding-top:20px;
+    padding-left:10px;
+    font-weight:200;
+    font-style:normal !important;
+   
+}
+
+@media only screen and (min-width:900px) {
+    .bookCell {
+        width:49%;
+        float:left;
+    }
+    .bookImageContainer {
+        
+    }
+    .bookImage {
+        height:460px;
+     
+        
+    }
+}

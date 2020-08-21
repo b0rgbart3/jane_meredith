@@ -1,0 +1,39 @@
+
+@media only screen and (min-width:700px) {
+    .mainpicContainer {
+        height:700px;
+
+    }
+    #sliderContainer {
+        display:block;
+    }
+
+    .bookContainer {
+        margin-top:160px;
+    }
+    .logo {
+        font-size:5em;
+        text-align:right;
+        padding-right:70px;
+    }
+
+    .logosub {
+        font-size:1.4em;
+        text-align:right;
+        padding-right:70px;
+    }
+
+    .booklink {
+        display:none;
+    }
+
+    .logo3 {
+        font-size:5em;
+    }
+
+    .fakeSpacer {
+        height:40px;
+        display:block;
+    }
+
+}
